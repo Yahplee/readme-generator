@@ -1,42 +1,38 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
+const renderLicenseBadge = (license) =>
 	license === "none"
 		? ""
 		: `![license badge](https://img.shields.io/badge/license-${license}-brightgreen.svg)`;
-}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
+const renderLicenseLink = (license) =>
 	license === "none" ? "" : `- [License](#license)`;
-}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
+const renderLicenseSection = (license) =>
 	license === "none"
 		? ""
 		: `## License
   
   This project is nested under the following license: ${license}`;
-}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown({
+const generateMarkdown = ({
 	title,
 	description,
 	installation,
 	usage,
-	licenses,
+	license,
 	contributing,
 	tests,
 	GitHub,
 	email,
-}) {
-	return `
+}) => `
 # ${title}
-${renderLicenseBadge(licenses)}
+${renderLicenseBadge(license)}
 
 ## Description
 ${description}
@@ -47,7 +43,7 @@ ${description}
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#question)
-${renderLicenseLink(licenses)}
+${renderLicenseLink(license)}
 
 ## Installation
 ${installation}
@@ -66,9 +62,8 @@ If you have any questions, please feel free to reach me at:
 - ${GitHub}
 - ${email}
 
-${renderLicenseSection(licenses)}
+${renderLicenseSection(license)}
 
 `;
-}
 
 module.exports = generateMarkdown;

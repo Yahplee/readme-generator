@@ -27,14 +27,14 @@ const questions = [
 	},
 	{
 		type: "list",
-		name: "licenses",
+		name: "license",
 		message: "Please choose the license for your project:",
 		choices: ["MPL2.0", "Apache2.0", "MIT", "BSL1.0", "none"],
 	},
 	{
 		type: "input",
 		name: "contributing",
-		message: "Who are your fellow contributors, if any?",
+		message: "Are there any guidelines contributors can follow?",
 	},
 	{
 		type: "input",
@@ -54,19 +54,19 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+const writeToFile = (fileName, data) => {
 	fs.writeFile(fileName, generateMarkdown(data), (err) => {
 		if (err) throw err;
 		console.log("The file has been saved!");
 	});
-}
+};
 
 // TODO: Create a function to initialize app
-function init() {
+const init = () => {
 	inquirer.prompt(questions).then((answers) => {
 		writeToFile("Readme.md", answers);
 	});
-}
+};
 
 // Function call to initialize app
 init();

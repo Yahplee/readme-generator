@@ -1,34 +1,13 @@
-
-# a
-undefined
+# readme-generator
 
 ## Description
-b
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#question)
-undefined
+You can find a video guide [here](https://www.youtube.com/watch?v=VwATpRAX_0w).
 
 ## Installation
-c
 
 ## Usage
-e
 
-## Contributing
-f
+## Credits
 
-## Tests
-g
-
-## Questions
-If you have any questions, please feel free to reach me at:
-- h
-- i
-
-undefined
-
+## License
