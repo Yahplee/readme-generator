@@ -19,7 +19,7 @@ You can find a video guide to the readme-generator [here](https://www.youtube.co
 
 ## Installation
 
-To run this application, you will first need to install inquirer. Then, you will have to run the following code: _npm i_.
+To run this application, you will first need to install inquirer after cloning this repository. Then, you will have to run the following code: _npm i_.
 
 After that, the inquirer will be installed and the readme-generator will be ready to run.
 
