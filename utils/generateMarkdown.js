@@ -59,8 +59,8 @@ ${tests}
 
 ## Questions
 If you have any questions, please feel free to reach me at:
-- ${GitHub}
-- ${email}
+- GitHub: ${GitHub}
+- Email: ${email}
 
 ${renderLicenseSection(license)}
 
