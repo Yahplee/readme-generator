@@ -29,6 +29,9 @@ The users will need to run the following command in their terminals: _node index
 
 After entering the command, the users will be greeted with a series of questions to help generate their readme.
 
+Please find a screenshot of the application at work and the result!
+![image of the application at work and the readme the application generated](./assets/images/example-picture.PNG)
+
 ## Contributing
 
 There currently isn't a guideline available at the moment.
@@ -47,3 +50,7 @@ If you have any questions, please feel free to reach me at:
 ## License
 
 This project is nested under the following license: MPL2.0
+
+## Credits
+
+Copyright © Yahplee All rights reserved.
