@@ -1,10 +1,10 @@
-# readme-generator-demo
+# Professional README Generator
 
 ![license badge](https://img.shields.io/badge/license-MIT-brightgreen.svg)
 
 ## Description
 
-A readme-generator.
+Creating an application to write a professional reamde
 
 ## Table of Contents
 
@@ -17,26 +17,26 @@ A readme-generator.
 
 ## Installation
 
-I finished the index.js and generateMarkdown.js files.
+I executed by accessing npm packages by using the inquirer and the fs packages.
 
 ## Usage
 
-Run the application
+The users would run "npm i" after cloning to create the node modules and then run "node index" to start this application
 
 ## Contributing
 
-None for now.
+Yes, by going to my repo on github.com/Yahplee
 
 ## Tests
 
-Run node.js
+There are no tests for this application
 
 ## Questions
 
 If you have any questions, please feel free to reach me at:
 
 - GitHub: Yahplee
-- Email: something@gmail.com
+- Email: alee68@fordham.edu
 
 ## License
 
